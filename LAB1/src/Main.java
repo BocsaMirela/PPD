@@ -2,26 +2,80 @@ import utils.GenerateFiles;
 import utils.Matrice;
 
 public class Main {
-
     public static void main(String[] args) {
-        GenerateFiles.generateArray(4,4,"D:\\RepoUniversity\\PPD\\LAB1\\src\\files\\matrice.txt");
-        long[][]a=GenerateFiles.getArrayFromFile(4,4,"D:\\RepoUniversity\\PPD\\LAB1\\src\\files\\matrice.txt");
-        Matrice ma=new Matrice(4,4,a);
 
-        GenerateFiles.generateArray(4,4,"D:\\RepoUniversity\\PPD\\LAB1\\src\\files\\matrice.txt");
-        long[][]b=GenerateFiles.getArrayFromFile(4,4,"D:\\RepoUniversity\\PPD\\LAB1\\src\\files\\matrice.txt");
-        Matrice mb=new Matrice(4,4,b);
+//        final int nrLines = Integer.parseInt(args[0]);
+//        final int nrCols = Integer.parseInt(args[1]);
+//        final int nrThreads = Integer.parseInt(args[2]);
+        final int nrLines = 4;
+        final int nrCols = 4;
+        final int nrThreads = 2;
 
-        mb.printValues();
-        ma.printValues();
+        Matrice matriceA = new Matrice(nrLines, nrCols);
+        Matrice matriceB = new Matrice(nrLines, nrCols);
+        Matrice matriceC = new Matrice(nrLines, nrCols);
 
-        Matrice c=new Matrice(4,4);
+        GenerateFiles.generateArray(nrLines, nrCols, "D:\\RepoUniversity\\PPD\\LAB1\\src\\files\\matriceA.txt");
+        long[][] a = GenerateFiles.getArrayFromFile(nrLines, nrCols, "D:\\RepoUniversity\\PPD\\LAB1\\src\\files\\matriceA.txt");
+        matriceA.setValues(a);
+
+        GenerateFiles.generateArray(nrLines, nrCols, "D:\\RepoUniversity\\PPD\\LAB1\\src\\files\\matriceB.txt");
+        long[][] b = GenerateFiles.getArrayFromFile(nrLines, nrCols, "D:\\RepoUniversity\\PPD\\LAB1\\src\\files\\matriceB.txt");
+        matriceB.setValues(b);
+
         try {
-            ParallelComputing.parallelAdd(ma,mb,c,3);
-            c.printValues();
+            performADD(matriceA, matriceB, matriceC, nrThreads);
+            performMULTIPLY(matriceA, matriceB, matriceC, nrThreads);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
     }
+
+    private static void performADD(Matrice matriceA, Matrice matriceB, Matrice matriceC, int nrThreads) throws InterruptedException {
+        System.out.println("TEST ADD");
+        System.out.println("Matrice A");
+        matriceA.printValues();
+
+        System.out.println("Matrice B");
+        matriceB.printValues();
+
+        long timeBeforeExecution = System.currentTimeMillis();
+        ParallelComputing.parallelAdd(matriceA, matriceB, matriceC, nrThreads);
+        long timeAfterExecution = System.currentTimeMillis();
+
+        System.out.println("Matrice C");
+        matriceC.printValues();
+
+        System.out.println();
+        System.out.println("TIMPP");
+        System.out.println(timeAfterExecution - timeBeforeExecution);
+        System.out.println();
+
+
+    }
+
+    private static void performMULTIPLY(Matrice matriceA, Matrice matriceB, Matrice matriceC, int nrThreads) throws InterruptedException {
+        System.out.println("TEST MULTIPLY");
+        System.out.println("Matrice A");
+        matriceA.printValues();
+
+        System.out.println("Matrice B");
+        matriceB.printValues();
+
+        long timeBeforeExecution = System.currentTimeMillis();
+        ParallelComputing.parallelMultiply(matriceA, matriceB, matriceC, nrThreads);
+        long timeAfterExecution = System.currentTimeMillis();
+
+        System.out.println("Matrice C");
+        matriceC.printValues();
+
+        System.out.println();
+        System.out.println("TIMPP");
+        System.out.println(timeAfterExecution - timeBeforeExecution);
+        System.out.println();
+
+
+    }
+
 }
