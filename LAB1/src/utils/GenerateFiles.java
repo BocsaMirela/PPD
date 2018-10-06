@@ -6,11 +6,12 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class GenerateFiles {
 
-    public static int[][] getArrayFromFile(final int n, final int m, final String fileName) {
-        int[][] result = new int[n][m];
+    public static long[][] getArrayFromFile(final int n, final int m, final String fileName) {
+        long[][] result = new long[n][m];
         try (Scanner scanner = new Scanner(new FileInputStream(fileName))) {
             for (int i = 0; i < n; i++)
                 for (int j = 0; j < m; j++) {
@@ -25,10 +26,10 @@ public class GenerateFiles {
     public static void generateArray(final int n, final int m, final String fileName) {
         try {
             BufferedWriter br = new BufferedWriter(new FileWriter(fileName));
-            final Random random = new Random();
+            final ThreadLocalRandom generator = ThreadLocalRandom.current();
             for (int i = 0; i < n; i++)
                 for (int j = 0; j < m; j++) {
-                    final int randomValue = random.nextInt();
+                    final int randomValue = generator.nextInt(2);
                     br.write(randomValue + " ");
                 }
             br.close();
