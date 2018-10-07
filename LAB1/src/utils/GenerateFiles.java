@@ -10,8 +10,8 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class GenerateFiles {
 
-    public static long[][] getArrayFromFile(final int n, final int m, final String fileName) {
-        long[][] result = new long[n][m];
+    public static double[][] getArrayFromFile(final int n, final int m, final String fileName) {
+        double[][] result = new double[n][m];
         try (Scanner scanner = new Scanner(new FileInputStream(fileName))) {
             for (int i = 0; i < n; i++)
                 for (int j = 0; j < m; j++) {
@@ -29,7 +29,7 @@ public class GenerateFiles {
             final ThreadLocalRandom generator = ThreadLocalRandom.current();
             for (int i = 0; i < n; i++)
                 for (int j = 0; j < m; j++) {
-                    final int randomValue = generator.nextInt(2);
+                    final int randomValue = generator.nextInt(4);
                     br.write(randomValue + " ");
                 }
             br.close();

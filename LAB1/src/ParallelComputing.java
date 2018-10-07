@@ -10,10 +10,10 @@ public class ParallelComputing {
         ArrayList<Thread> threadList = new ArrayList<Thread>();
         int m = a.getLines();
         int n = b.getColumns();
-        int workForThreads = m * n / p;
-        int startIndex = 0;
-        int endIndex = 0;
-        int rest = (m * n) % p;
+        long workForThreads = m * n / p;
+        long startIndex = 0;
+        long endIndex = 0;
+        long rest = (m * n) % p;
         for (int k = 1; k <= p; k++) {
             endIndex = startIndex + workForThreads;
             if (rest > 0) {

@@ -3,9 +3,9 @@ package utils;
 public class Matrice {
     private int lines;
     private int columns;
-    public long[][] values;
+    public double[][] values;
 
-    public Matrice(int lines, int columns, long[][] values) {
+    public Matrice(int lines, int columns, double[][] values) {
         this.lines = lines;
         this.columns = columns;
         this.values = values;
@@ -14,7 +14,7 @@ public class Matrice {
     public Matrice(final int n, final int m) {
         this.lines = n;
         this.columns = m;
-        this.values = new long[n][m];
+        this.values = new double[n][m];
     }
 
     public int getLines() {
@@ -33,11 +33,11 @@ public class Matrice {
         this.columns = columns;
     }
 
-    public long[][] getValues() {
+    public double[][] getValues() {
         return values;
     }
 
-    public void setValues(long[][] values) {
+    public void setValues(double[][] values) {
         this.values = values;
     }
 
@@ -62,7 +62,7 @@ public class Matrice {
     }
 
     public static Matrice add(final Matrice a, final Matrice b) {
-        long[][] values = new long[a.getLines()][b.getColumns()];
+        double[][] values = new double[a.getLines()][b.getColumns()];
         for (int i = 0; i < a.getLines(); i++)
             for (int j = 0; j < a.getColumns(); j++) {
                 values[i][j] = a.getValues()[i][j] + b.getValues()[i][j];
@@ -78,7 +78,7 @@ public class Matrice {
     }
 
     public static Matrice multiply(final Matrice a, final Matrice b) {
-        long[][] values = new long[a.getLines()][b.getColumns()];
+        double[][] values = new double[a.getLines()][b.getColumns()];
         for (int i = 0; i < a.getLines(); i++)
             for (int j = 0; j < a.getColumns(); j++) {
                 values[i][j] = a.getValues()[i][j] * b.getValues()[i][j];
@@ -93,11 +93,11 @@ public class Matrice {
             }
     }
 
-    public void setElement(final int i, final int j, final long value){
+    public void setElement(final int i, final int j, final double value){
         this.values[i][j]=value;
     }
 
-    public long getElement(final int i, final int j){
+    public double getElement(final int i, final int j){
         return values[i][j];
     }
 
