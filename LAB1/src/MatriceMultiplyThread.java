@@ -6,17 +6,13 @@ public class MatriceMultiplyThread implements Runnable {
     private Matrice c;
     private int startLine;
     private int endLine;
-    private int endCol;
-    private int startCol;
 
-    public MatriceMultiplyThread(Matrice a, Matrice b, Matrice c, int startIndex1, int endIndex1, int startIndex2, int endIndex2) {
+    public MatriceMultiplyThread(Matrice a, Matrice b, Matrice c, int startIndex1, int endIndex1) {
         this.a = a;
         this.b = b;
         this.c = c;
         this.startLine = startIndex1;
         this.endLine = endIndex1;
-        this.endCol = endIndex2;
-        this.startCol = startIndex2;
     }
 
     @Override

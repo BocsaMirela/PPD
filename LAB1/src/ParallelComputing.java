@@ -39,7 +39,6 @@ public class ParallelComputing {
         int n = b.getColumns();
         int workForThreads = m * n / p;
         int startLine = 0;
-        int startCol = 0;
         int endLine = 0;
         int endCol = 0;
         int rest = (m * n) % p;
@@ -63,10 +62,9 @@ public class ParallelComputing {
             if (endLine > a.getLines())
                 endLine = a.getLines();
 //            System.out.println("linii "+startLine+" "+endLine);
-            Thread t = new Thread(new MatriceMultiplyThread(a, b, c, startLine, endLine, startCol, endCol));
+            Thread t = new Thread(new MatriceMultiplyThread(a, b, c, startLine, endLine));
             threadList.add(t);
             startLine = endLine;
-            startCol = endCol + 1;
         }
         for (Thread t : threadList) {
             t.start();
