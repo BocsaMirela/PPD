@@ -6,13 +6,17 @@ public class MatriceMultiplyThread implements Runnable {
     private Matrice c;
     private int startLine;
     private int endLine;
+    private int startCol;
+    private int endCol;
 
-    public MatriceMultiplyThread(Matrice a, Matrice b, Matrice c, int startIndex1, int endIndex1) {
+    public MatriceMultiplyThread(Matrice a, Matrice b, Matrice c, int startIndex1, int endIndex1,int startIndex2, int endIndex2) {
         this.a = a;
         this.b = b;
         this.c = c;
         this.startLine = startIndex1;
         this.endLine = endIndex1;
+        this.startCol = startIndex2;
+        this.endCol = endIndex2;
     }
 
     @Override
@@ -29,7 +33,7 @@ public class MatriceMultiplyThread implements Runnable {
 //                    System.out.println();
                     res += (a.getValues()[i][k] * b.getValues()[k][j]);
                 }
-//            System.out.println(line + " " + col);
+//            System.out.println(i + " " + j);
                 c.setElement(i, j, res);
             }
         }

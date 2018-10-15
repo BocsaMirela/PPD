@@ -35,12 +35,13 @@ public class ParallelComputing {
 
     public static void parallelMultiply(Matrice a, Matrice b, Matrice c, final int p) throws InterruptedException {
         ArrayList<Thread> threadList = new ArrayList<Thread>();
-        int m = b.getLines();
-        int n = b.getColumns();
+        int m = a.getLines();
+        int n = a.getColumns();
         int workForThreads = m * n / p;
         int startLine = 0;
         int endLine = 0;
         int endCol = 0;
+        int startCol = 0;
         int rest = (m * n) % p;
         for (int k = 1; k <= p; k++) {
             int cate;
@@ -62,9 +63,11 @@ public class ParallelComputing {
             if (endLine > a.getLines())
                 endLine = a.getLines();
 //            System.out.println("linii "+startLine+" "+endLine);
-            Thread t = new Thread(new MatriceMultiplyThread(a, b, c, startLine, endLine));
+//            System.out.println("cols "+startCol+" "+endCol);
+            Thread t = new Thread(new MatriceMultiplyThread(a, b, c, startLine, endLine,startCol, endCol));
             threadList.add(t);
             startLine = endLine;
+            startCol=endCol+1;
         }
         for (Thread t : threadList) {
             t.start();
