@@ -1,11 +1,11 @@
 package utils;
 
-public class Matrice {
+public class Matrice<T> {
     private int lines;
     private int columns;
-    public double[][] values;
+    private Object[][] values;
 
-    public Matrice(int lines, int columns, double[][] values) {
+    public Matrice(int lines, int columns, T[][] values) {
         this.lines = lines;
         this.columns = columns;
         this.values = values;
@@ -14,7 +14,7 @@ public class Matrice {
     public Matrice(final int n, final int m) {
         this.lines = n;
         this.columns = m;
-        this.values = new double[n][m];
+        this.values = new Object[n][m];
     }
 
     public int getLines() {
@@ -33,11 +33,11 @@ public class Matrice {
         this.columns = columns;
     }
 
-    public double[][] getValues() {
-        return values;
+    public T[][] getValues() {
+        return (T[][])values;
     }
 
-    public void setValues(double[][] values) {
+    public void setValues(T[][] values) {
         this.values = values;
     }
 
@@ -61,44 +61,13 @@ public class Matrice {
         System.out.println();
     }
 
-    public static Matrice add(final Matrice a, final Matrice b) {
-        double[][] values = new double[a.getLines()][b.getColumns()];
-        for (int i = 0; i < a.getLines(); i++)
-            for (int j = 0; j < a.getColumns(); j++) {
-                values[i][j] = a.getValues()[i][j] + b.getValues()[i][j];
-            }
-        return new Matrice(a.getLines(), a.getColumns(), values);
-    }
 
-    public void add(final Matrice other) {
-        for (int i = 0; i < other.getLines(); i++)
-            for (int j = 0; j < other.getColumns(); j++) {
-                this.values[i][j] += other.getValues()[i][j];
-            }
-    }
-
-    public static Matrice multiply(final Matrice a, final Matrice b) {
-        double[][] values = new double[a.getLines()][b.getColumns()];
-        for (int i = 0; i < a.getLines(); i++)
-            for (int j = 0; j < a.getColumns(); j++) {
-                values[i][j] = a.getValues()[i][j] * b.getValues()[i][j];
-            }
-        return new Matrice(a.getLines(), a.getColumns(), values);
-    }
-
-    public void multiply(final Matrice other) {
-        for (int i = 0; i < other.getLines(); i++)
-            for (int j = 0; j < other.getColumns(); j++) {
-                this.values[i][j] *= other.getValues()[i][j];
-            }
-    }
-
-    public void setElement(final int i, final int j, final double value){
+    public void setElement(final int i, final int j, final T value){
         this.values[i][j]=value;
     }
 
-    public double getElement(final int i, final int j){
-        return values[i][j];
+    public T getElement(final int i, final int j){
+        return (T)values[i][j];
     }
 
 }

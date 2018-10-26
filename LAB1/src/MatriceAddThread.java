@@ -1,15 +1,15 @@
 import utils.AsociativOperator;
 import utils.Matrice;
 
-public class MatriceAddThread implements Runnable {
-    private Matrice a;
-    private Matrice b;
-    private Matrice c;
+public class MatriceAddThread<T> implements Runnable {
+    private Matrice<T> a;
+    private Matrice<T> b;
+    private Matrice<T> c;
     private long startIndex;
     private long endIndex;
-    AsociativOperator op;
+    AsociativOperator<T> op;
 
-    public MatriceAddThread(Matrice a, Matrice b, Matrice c, long startIndex, long endIndex, AsociativOperator op) {
+    public MatriceAddThread(Matrice<T> a, Matrice<T> b, Matrice<T> c, long startIndex, long endIndex, AsociativOperator<T> op) {
         this.a = a;
         this.b = b;
         this.c = c;

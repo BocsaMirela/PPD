@@ -10,12 +10,12 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class GenerateFiles {
 
-    public static double[][] getArrayFromFile(final int n, final int m, final String fileName) {
-        double[][] result = new double[n][m];
+    public static Double[][] getArrayFromFile(final int n, final int m, final String fileName) {
+        Double[][] result = new Double[n][m];
         try (Scanner scanner = new Scanner(new FileInputStream(fileName))) {
             for (int i = 0; i < n; i++)
                 for (int j = 0; j < m; j++) {
-                    result[i][j] = scanner.nextInt();
+                    result[i][j] = new Double(scanner.nextInt());
                 }
         } catch (FileNotFoundException e) {
             e.printStackTrace();

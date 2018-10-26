@@ -1,6 +1,6 @@
 package utils;
 
 @FunctionalInterface
-public interface AsociativOperator {
-    public double operation(double a, double b);
+public interface AsociativOperator<T> {
+    public T operation(T a, T b);
 }

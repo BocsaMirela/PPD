@@ -7,7 +7,7 @@ public class ParallelComputing {
     public ParallelComputing() {
     }
 
-    public static void parallelAdd(Matrice a, Matrice b, Matrice c, final int p, AsociativOperator asociativOperator) throws InterruptedException {
+    public static void parallelAdd(Matrice<?> a, Matrice<?> b, Matrice<?> c, final int p, AsociativOperator<?> asociativOperator) throws InterruptedException {
         ArrayList<Thread> threadList = new ArrayList<Thread>();
         int m = a.getLines();
         int n = b.getColumns();

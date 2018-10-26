@@ -9,24 +9,37 @@ public class Main {
 
         final int nrThreads = 3;
 
-        final AsociativOperator asociativOperator = (a, b) -> 	1/	(1/	a + 1/b);
+        final AsociativOperator<Integer> asociativOperator = (a, b) -> (a + b);
 
         addMatrix(nrLines, nrCols, nrThreads, asociativOperator);
 
     }
 
     private static void addMatrix(int nrLines, int nrCols, int nrThreads, AsociativOperator asociativOperator) {
-        Matrice matriceA = new Matrice(nrLines, nrCols);
-        Matrice matriceB = new Matrice(nrLines, nrCols);
-        Matrice matriceResultADD = new Matrice(nrLines, nrCols);
+        Matrice<Integer> matriceA = new Matrice<>(nrLines, nrCols);
+        Matrice<Integer> matriceB = new Matrice<>(nrLines, nrCols);
+        Matrice<Integer> matriceResultADD = new Matrice<>(nrLines, nrCols);
 
         GenerateFiles.generateArray(nrLines, nrCols, "D:\\RepoUniversity\\PPD\\LAB1\\src\\files\\matriceA.txt");
-        double[][] a = GenerateFiles.getArrayFromFile(nrLines, nrCols, "D:\\RepoUniversity\\PPD\\LAB1\\src\\files\\matriceA.txt");
+        Integer[][] a = new Integer[nrLines][nrLines];
+        Double[][] ab = GenerateFiles.getArrayFromFile(nrLines, nrCols, "D:\\RepoUniversity\\PPD\\LAB1\\src\\files\\matriceA.txt");
+        for (int i = 0; i < nrLines; i++) {
+            for (int j = 0; j < nrCols; j++) {
+                a[i][j] = ab[i][j].intValue();
+            }
+            System.out.println();
+        }
         matriceA.setValues(a);
 
         GenerateFiles.generateArray(nrLines, nrCols, "D:\\RepoUniversity\\PPD\\LAB1\\src\\files\\matriceB.txt");
-        double[][] b = GenerateFiles.getArrayFromFile(nrLines, nrCols, "D:\\RepoUniversity\\PPD\\LAB1\\src\\files\\matriceB.txt");
-        matriceB.setValues(b);
+        Double[][] b = GenerateFiles.getArrayFromFile(nrLines, nrCols, "D:\\RepoUniversity\\PPD\\LAB1\\src\\files\\matriceB.txt");
+        for (int i = 0; i < nrLines; i++) {
+            for (int j = 0; j < nrCols; j++) {
+                a[i][j] = b[i][j].intValue();
+            }
+            System.out.println();
+        }
+        matriceB.setValues(a);
         try {
             performADD(matriceA, matriceB, matriceResultADD, nrThreads, asociativOperator);
         } catch (InterruptedException e) {
@@ -35,7 +48,7 @@ public class Main {
     }
 
 
-    private static void performADD(Matrice matriceA, Matrice matriceB, Matrice matriceC, int nrThreads, AsociativOperator asociativOperator) throws InterruptedException {
+    private static void performADD(Matrice<?> matriceA, Matrice<?> matriceB, Matrice<?> matriceC, int nrThreads, AsociativOperator<?> asociativOperator) throws InterruptedException {
         System.out.println("TEST ADD");
         System.out.println("Matrice A");
         matriceA.printValues();
