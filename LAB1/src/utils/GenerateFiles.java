@@ -29,7 +29,7 @@ public class GenerateFiles {
             final ThreadLocalRandom generator = ThreadLocalRandom.current();
             for (int i = 0; i < n; i++)
                 for (int j = 0; j < m; j++) {
-                    final int randomValue = generator.nextInt(1,4);
+                    final int randomValue = generator.nextInt(3,6);
                     br.write(randomValue + " ");
                 }
             br.close();

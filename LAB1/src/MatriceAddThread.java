@@ -24,7 +24,14 @@ public class MatriceAddThread<T> implements Runnable {
         for (long i = startIndex; i < endIndex; i++) {
             final int line = (int) (i / columns);
             final int col = (int) (i % columns);
-//            System.out.println(line + " " + col);
+////            System.out.println(line + " " + col);
+//                System.out.println("Pairs");
+//            System.out.println(line);
+//            System.out.println(col);
+//            System.out.println();
+//                System.out.println(a.getElement(line, col));
+//                System.out.println(b.getElement(line, col));
+//                System.out.println();
             c.setElement(line, col, op.operation(a.getElement(line, col), b.getElement(line, col)));
         }
     }
