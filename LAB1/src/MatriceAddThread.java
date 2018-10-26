@@ -1,3 +1,4 @@
+import utils.AsociativOperator;
 import utils.Matrice;
 
 public class MatriceAddThread implements Runnable {
@@ -6,13 +7,15 @@ public class MatriceAddThread implements Runnable {
     private Matrice c;
     private long startIndex;
     private long endIndex;
+    AsociativOperator op;
 
-    public MatriceAddThread(Matrice a, Matrice b, Matrice c, long startIndex, long endIndex) {
+    public MatriceAddThread(Matrice a, Matrice b, Matrice c, long startIndex, long endIndex, AsociativOperator op) {
         this.a = a;
         this.b = b;
         this.c = c;
         this.startIndex = startIndex;
         this.endIndex = endIndex;
+        this.op = op;
     }
 
     @Override
@@ -22,7 +25,7 @@ public class MatriceAddThread implements Runnable {
             final int line = (int) (i / columns);
             final int col = (int) (i % columns);
 //            System.out.println(line + " " + col);
-            c.setElement(line, col, a.getElement(line, col) + b.getElement(line, col));
+            c.setElement(line, col, op.operation(a.getElement(line, col), b.getElement(line, col)));
         }
     }
 }
