@@ -6,12 +6,15 @@ public class Main {
 
 //        final int nrLines = Integer.parseInt(args[0]);
 //        final int nrCols = Integer.parseInt(args[1]);
-//        final int nrThreads = Integer.parseInt(args[2]);
-        final int nrLines = 3;
-        final int nrCols = 3;
 
-        final int nrLinesM2 = 3;
-        final int nrColsM2 = 3;
+//        final int nrLinesM2 = Integer.parseInt(args[2]);
+//        final int nrColsM2 = Integer.parseInt(args[3]);
+//        final int nrThreads = Integer.parseInt(args[4]);
+        final int nrLines = 5;
+        final int nrCols = 4;
+
+        final int nrLinesM2 = 4;
+        final int nrColsM2 = 5;
         final int nrThreads = 3;
 
         addMatrix(nrLines, nrCols, nrThreads);
@@ -31,7 +34,6 @@ public class Main {
         GenerateFiles.generateArray(nrLines, nrCols, "D:\\RepoUniversity\\PPD\\LAB1\\src\\files\\matriceB.txt");
         double[][] b = GenerateFiles.getArrayFromFile(nrLines, nrCols, "D:\\RepoUniversity\\PPD\\LAB1\\src\\files\\matriceB.txt");
         matriceB.setValues(b);
-
         try {
             performADD(matriceA, matriceB, matriceResultADD, nrThreads);
         } catch (InterruptedException e) {
