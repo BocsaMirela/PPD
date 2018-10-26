@@ -3,13 +3,6 @@ import utils.Matrice;
 
 public class Main {
     public static void main(String[] args) {
-
-//        final int nrLines = Integer.parseInt(args[0]);
-//        final int nrCols = Integer.parseInt(args[1]);
-
-//        final int nrLinesM2 = Integer.parseInt(args[2]);
-//        final int nrColsM2 = Integer.parseInt(args[3]);
-//        final int nrThreads = Integer.parseInt(args[4]);
         final int nrLines = 5;
         final int nrCols = 4;
 
