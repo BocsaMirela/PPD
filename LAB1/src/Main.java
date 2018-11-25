@@ -7,8 +7,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        final int nrLines = 4;
-        final int nrCols = 4;
+        final int nrLines = 1000;
+        final int nrCols = 1000;
         final int nrThreads = 3;
 
         displayMenu(nrLines, nrCols, nrThreads);
@@ -20,6 +20,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
+            System.out.println("threads");
+            nrThreads=scanner.nextInt();
             System.out.println("Choose the type:\n 1. Integer \n 2. Float \n 3. Double \n 4. Complex \n");
             type = scanner.nextInt();
             System.out.println("Choose the operation:\n 1. ADD \n 2. MULTIPLY \n 3. 1/(1/a + 1/b) \n");
@@ -66,7 +68,12 @@ public class Main {
                 asociativOperator = (a, b) -> (a * b);
                 break;
             case 3:
-                asociativOperator = (a, b) -> ((1/a + 1/b));
+                asociativOperator = (a, b) -> {
+                    double da=(double)a;
+                    double db=(double)b;
+                    final Double value=1/(1/da + 1/db);
+                    return value.intValue();
+                };
                 break;
         }
         addMatrixInteger(nrLines, nrCols, nrThreads, asociativOperator);
@@ -229,17 +236,17 @@ public class Main {
     private static void performADD(Matrice<?> matriceA, Matrice<?> matriceB, Matrice<?> matriceC, int nrThreads, AsociativOperator<?> asociativOperator) throws InterruptedException {
         System.out.println("TEST ADD");
         System.out.println("Matrice A");
-        matriceA.printValues();
+//        matriceA.printValues();
 
         System.out.println("Matrice B");
-        matriceB.printValues();
+//        matriceB.printValues();
 
-        long timeBeforeExecution = System.nanoTime();
+        long timeBeforeExecution = System.currentTimeMillis();
         ParallelComputing.parallelAdd(matriceA, matriceB, matriceC, nrThreads, asociativOperator);
-        long timeAfterExecution = System.nanoTime();
+        long timeAfterExecution = System.currentTimeMillis();
 
         System.out.println("Matrice C");
-        matriceC.printValues();
+//        matriceC.printValues();
 
         System.out.println();
         System.out.println("TIMPP");

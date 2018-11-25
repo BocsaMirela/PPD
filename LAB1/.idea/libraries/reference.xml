@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="reference">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Downloads/xmlbeans-bin-3.0.1-20180824.zip!/xmlbeans-3.0.1/docs/reference" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/xmlbeans-bin-3.0.1-20180824.zip!/xmlbeans-3.0.1/samples/Any/src" />
+      <root url="jar://$USER_HOME$/Downloads/xmlbeans-bin-3.0.1-20180824.zip!/xmlbeans-3.0.1/samples/DateTime/src" />
+      <root url="jar://$USER_HOME$/Downloads/xmlbeans-bin-3.0.1-20180824.zip!/xmlbeans-3.0.1/samples/MixedContent/src" />
+      <root url="jar://$USER_HOME$/Downloads/xmlbeans-bin-3.0.1-20180824.zip!/xmlbeans-3.0.1/samples/OrderMatters/src" />
+      <root url="jar://$USER_HOME$/Downloads/xmlbeans-bin-3.0.1-20180824.zip!/xmlbeans-3.0.1/samples/SchemaEnum/src" />
+      <root url="jar://$USER_HOME$/Downloads/xmlbeans-bin-3.0.1-20180824.zip!/xmlbeans-3.0.1/samples/Validation/src" />
+      <root url="jar://$USER_HOME$/Downloads/xmlbeans-bin-3.0.1-20180824.zip!/xmlbeans-3.0.1/samples/XQueryXPath/src" />
+      <root url="jar://$USER_HOME$/Downloads/xmlbeans-bin-3.0.1-20180824.zip!/xmlbeans-3.0.1/samples/XsdConfig/src" />
+    </SOURCES>
+  </library>
+</component>

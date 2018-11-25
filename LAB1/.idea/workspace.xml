@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe3c107e-e211-4720-b511-72effff979a7" name="Default Changelist" comment="" />
+    <list default="true" id="fe3c107e-e211-4720-b511-72effff979a7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LAB1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LAB1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LAB1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,28 +18,68 @@
     <session id="818955300">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.125" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.211" value="1" />
+          <entry key="project.open.time.223" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.59" value="1" />
+          <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.73" value="1" />
+          <entry key="project.open.time.78" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.80" value="1" />
+          <entry key="project.open.time.87" value="1" />
+          <entry key="project.open.time.96" value="1" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="AsociativOperator" value="1" />
+          <entry key="GenerateFiles" value="4" />
+          <entry key="JAVA/" value="2" />
+          <entry key="JAVA/MatriceAddThread" value="1" />
+          <entry key="JAVA/utils" value="1" />
+          <entry key="JavaScript-modules-diagram/D:/RepoUniversity/PPD/LAB1/src/utils" value="1" />
+          <entry key="java" value="24" />
+          <entry key="png" value="4" />
+          <entry key="txt" value="1" />
+          <entry key="uml" value="4" />
+          <entry key="vmoptions" value="1" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="Image" value="4" />
+          <entry key="JAVA" value="24" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="UML" value="14" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="484" />
+          <entry key="java" value="6387" />
+          <entry key="txt" value="15" />
+          <entry key="vmoptions" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="484" />
+          <entry key="JAVA" value="6387" />
+          <entry key="PLAIN_TEXT" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -44,17 +89,88 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="241">
+              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/Matrice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ParallelComputing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2363">
+              <caret line="165" selection-start-line="165" selection-end-line="165" />
+              <folding>
+                <element signature="e#6351#6352#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MatriceAddThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/ComplexNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1156">
+              <caret line="78" column="42" selection-start-line="76" selection-start-column="8" selection-end-line="78" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/AsociativOperator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/diagrams/GenerateFiles.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/GenerateFiles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="23" lean-forward="true" selection-end-line="41" />
+            <state relative-caret-position="425">
+              <caret line="25" column="22" selection-start-line="25" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,18 +183,50 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>long</find>
+      <find>int</find>
+      <find>6</find>
+      <find>linii</find>
+      <find>Double</find>
+      <find>double</find>
+      <find>?</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>int</replace>
+      <replace>long</replace>
+      <replace>Integer</replace>
+      <replace>T</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="LAB1" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Matrice.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/src/utils/ExcelWriter.java" />
+        <option value="$PROJECT_DIR$/src/MatriceMultiplyThread.java" />
+        <option value="$PROJECT_DIR$/src/ParallelComputing.java" />
+        <option value="$PROJECT_DIR$/src/utils/ComplexNumber.java" />
         <option value="$PROJECT_DIR$/src/utils/GenerateFiles.java" />
+        <option value="$PROJECT_DIR$/src/utils/Matrice.java" />
+        <option value="$PROJECT_DIR$/src/utils/AsociativOperator.java" />
+        <option value="$PROJECT_DIR$/src/MatriceAddThread.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -88,9 +236,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="1378" />
+    <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -99,7 +253,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,19 +265,44 @@
               <item name="LAB1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LAB1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LAB1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538839647821" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540722143677" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Tema-2" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -142,15 +320,22 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LAB1" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="-Xms2048m -Xmx4096m" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="PROGRAM_PARAMETERS" value="4 4 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -165,70 +350,661 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538837342825</updated>
-      <workItem from="1538837347218" duration="2242000" />
+      <workItem from="1538837347218" duration="16098000" />
+      <workItem from="1538900692661" duration="15890000" />
+      <workItem from="1538946063616" duration="846000" />
+      <workItem from="1539023079815" duration="9556000" />
+      <workItem from="1539089192840" duration="6686000" />
+      <workItem from="1539119553653" duration="2413000" />
+      <workItem from="1539201290178" duration="4041000" />
+      <workItem from="1539282753826" duration="1483000" />
+      <workItem from="1539624113172" duration="8080000" />
+      <workItem from="1539688229815" duration="95000" />
+      <workItem from="1539695729788" duration="2311000" />
+      <workItem from="1540134637308" duration="24000" />
+      <workItem from="1540140896781" duration="386000" />
+      <workItem from="1540157561517" duration="624000" />
+      <workItem from="1540546345645" duration="22613000" />
+      <workItem from="1540627785530" duration="6185000" />
+      <workItem from="1540658054589" duration="4231000" />
+      <workItem from="1540723154911" duration="876000" />
+      <workItem from="1540725486855" duration="54000" />
+      <workItem from="1540901715795" duration="136000" />
+      <workItem from="1540907516853" duration="2826000" />
     </task>
+    <task id="LOCAL-00001" summary="final version">
+      <created>1539630773134</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539630773134</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2242000" />
+    <option name="totallyTimeSpent" value="105454000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962063" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3294509" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4989733" visible="true" weight="0.2322239" />
+      <window_info id="Structure" order="6" sideWeight="0.5010267" side_tool="true" weight="0.24962063" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.2700491" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.30114567" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.2651391" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.08346972" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.6546311" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.24886535" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final version" />
+    <option name="LAST_COMMIT_MESSAGE" value="final version" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ParallelComputing.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MatriceAddThread.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MatriceAddThread.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/utils/AsociativOperator.java</url>
+          <line>4</line>
+          <properties class="utils.AsociativOperator" method="operation">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>T</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>b.getElement(line, col)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>a.getElement(line, col)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+    <entry file="uml://JavaScript-modules-diagram/D:/RepoUniversity/PPD/LAB1/src/utils">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/utils</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="495.0" y="217.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
         </state>
       </provider>
     </entry>
+    <entry file="uml://JAVA/MatriceAddThread">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>MatriceAddThread</OriginalElement>
+          <nodes>
+            <node x="" y="">java.lang.FunctionalInterface</node>
+            <node x="" y="">java.lang.Runnable</node>
+            <node x="" y="">MatriceAddThread</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="75.0" y="95.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/utils">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>utils</OriginalElement>
+          <nodes>
+            <node x="" y="">utils.Matrice</node>
+            <node x="" y="">utils.GenerateFiles</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="59.0" y="52.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">com</node>
+            <node x="" y="">oracle</node>
+            <node x="" y="">org</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">ParallelComputing</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">MatriceMultiplyThread</node>
+            <node x="" y="">java</node>
+            <node x="" y="">groovy</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">utils</node>
+            <node x="" y="">files</node>
+            <node x="" y="">javafx</node>
+            <node x="" y="">Main</node>
+            <node x="" y="">MatriceAddThread</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.866" x="277.0" y="240.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diagrams/classDiagram.uml" />
+    <entry file="file://$PROJECT_DIR$/src/files/matrice.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diagrams/diagram.png" />
+    <entry file="file://$PROJECT_DIR$/src/diagrams/diagram.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="414.1413690476191" y="0.0">utils.Matrice</node>
+            <node x="0.0" y="678.0">utils.GenerateFiles</node>
+            <node x="300.0" y="678.0">ParallelComputing</node>
+            <node x="250.09970238095238" y="176.5">java.lang.Runnable</node>
+            <node x="403.7470238095238" y="465.0">MatriceMultiplyThread</node>
+            <node x="355.0386904761905" y="802.0">Main</node>
+            <node x="236.7470238095238" y="465.0">MatriceAddThread</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="MatriceMultiplyThread" target="java.lang.Runnable">
+              <point x="-56.33333333333334" y="-81.5" />
+              <point x="431.9136904761904" y="425.0" />
+              <point x="339.3497023809524" y="425.0" />
+              <point x="29.75" y="26.0" />
+            </edge>
+            <edge source="ParallelComputing" target="utils.Matrice">
+              <point x="111.66666666666669" y="-37.0" />
+              <point x="579.1666666666666" y="653.0" />
+              <point x="603.9027777777777" y="653.0" />
+              <point x="603.9027777777777" y="445.0" />
+              <point x="573.5699404761905" y="445.0" />
+              <point x="35.42857142857139" y="202.5" />
+            </edge>
+            <edge source="Main" target="utils.Matrice">
+              <point x="43.87499999999994" y="-48.0" />
+              <point x="574.4136904761904" y="777.0" />
+              <point x="645.5" y="777.0" />
+              <point x="645.5" y="445.0" />
+              <point x="608.9985119047619" y="445.0" />
+              <point x="70.85714285714283" y="202.5" />
+            </edge>
+            <edge source="MatriceAddThread" target="utils.Matrice">
+              <point x="0.0" y="-81.5" />
+              <point x="310.2470238095238" y="435.0" />
+              <point x="431.8556547619048" y="435.0" />
+              <point x="-106.28571428571428" y="202.5" />
+            </edge>
+            <edge source="ParallelComputing" target="MatriceAddThread">
+              <point x="-111.66666666666669" y="-37.0" />
+              <point x="355.83333333333326" y="653.0" />
+              <point x="310.2470238095238" y="653.0" />
+              <point x="0.0" y="81.5" />
+            </edge>
+            <edge source="MatriceAddThread" target="java.lang.Runnable">
+              <point x="-49.0" y="-81.5" />
+              <point x="261.2470238095238" y="445.0" />
+              <point x="279.8497023809524" y="445.0" />
+              <point x="-29.75" y="26.0" />
+            </edge>
+            <edge source="MatriceMultiplyThread" target="utils.Matrice">
+              <point x="56.33333333333334" y="-81.5" />
+              <point x="544.5803571428571" y="445.0" />
+              <point x="538.141369047619" y="445.0" />
+              <point x="-5.6843418860808015E-14" y="202.5" />
+            </edge>
+            <edge source="ParallelComputing" target="MatriceMultiplyThread">
+              <point x="0.0" y="-37.0" />
+              <point x="467.5" y="653.0" />
+              <point x="488.2470238095238" y="653.0" />
+              <point x="0.0" y="81.5" />
+            </edge>
+            <edge source="Main" target="ParallelComputing">
+              <point x="-43.87500000000006" y="-48.0" />
+              <point x="486.6636904761904" y="777.0" />
+              <point x="467.5" y="777.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="Main" target="utils.GenerateFiles">
+              <point x="-131.62500000000006" y="-48.0" />
+              <point x="398.9136904761904" y="777.0" />
+              <point x="140.0" y="777.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="220.0" y="220.0" />
+          <SelectedNodes>
+            <node>MatriceMultiplyThread</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/maven.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/jxl_2_6_jar.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/java.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="603" column="32" lean-forward="true" selection-start-line="603" selection-start-column="32" selection-end-line="603" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/utils.GenerateFiles">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>utils.GenerateFiles</OriginalElement>
+          <nodes>
+            <node x="" y="">MatriceMultiplyThread</node>
+            <node x="" y="">utils.Matrice</node>
+            <node x="" y="">Main</node>
+            <node x="" y="">utils.GenerateFiles</node>
+            <node x="" y="">java.lang.Runnable</node>
+            <node x="" y="">ParallelComputing</node>
+            <node x="" y="">MatriceAddThread</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-59.0" y="254.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/ExcelWriter.java" />
+    <entry file="file://$PROJECT_DIR$/src/MatriceMultiplyThread.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="109" column="36" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/utils.AsociativOperator">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>utils.AsociativOperator</OriginalElement>
+          <nodes>
+            <node x="0.0" y="602.0">utils.ComplexNumber</node>
+            <node x="1111.3" y="0.0">utils.Matrice</node>
+            <node x="969.5" y="132.5">java.lang.Runnable</node>
+            <node x="465.0" y="734.5">utils.GenerateFiles</node>
+            <node x="780.0" y="745.5">ParallelComputing</node>
+            <node x="517.0" y="1001.0">Main</node>
+            <node x="774.9508928571429" y="132.5">utils.AsociativOperator</node>
+            <node x="928.0" y="367.0">MatriceAddThread</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="MatriceAddThread" target="utils.AsociativOperator">
+              <point x="-80.80000000000007" y="-92.5" />
+              <point x="948.1999999999999" y="347.0" />
+              <point x="872.4508928571429" y="347.0" />
+              <point x="19.5" y="26.0" />
+            </edge>
+            <edge source="Main" target="utils.Matrice">
+              <point x="144.28571428571422" y="-136.0" />
+              <point x="913.7857142857142" y="971.0" />
+              <point x="1288.5" y="971.0" />
+              <point x="1288.5" y="347.0" />
+              <point x="1255.5" y="347.0" />
+              <point x="41.200000000000074" y="158.5" />
+            </edge>
+            <edge source="Main" target="utils.ComplexNumber">
+              <point x="-216.42857142857156" y="-136.0" />
+              <point x="553.0714285714284" y="981.0" />
+              <point x="111.25" y="981.0" />
+              <point x="-111.25" y="169.5" />
+            </edge>
+            <edge source="ParallelComputing" target="utils.Matrice">
+              <point x="166.0" y="-26.0" />
+              <point x="1195.0" y="577.0" />
+              <point x="1230.9819196428573" y="577.0" />
+              <point x="1230.9819196428573" y="347.0" />
+              <point x="1214.3" y="347.0" />
+              <point x="0.0" y="158.5" />
+            </edge>
+            <edge source="MatriceAddThread" target="utils.Matrice">
+              <point x="40.39999999999998" y="-92.5" />
+              <point x="1069.4" y="337.0" />
+              <point x="1131.9" y="337.0" />
+              <point x="-82.39999999999998" y="158.5" />
+            </edge>
+            <edge source="ParallelComputing" target="MatriceAddThread">
+              <point x="0.0" y="-26.0" />
+              <point x="0.0" y="92.5" />
+            </edge>
+            <edge source="MatriceAddThread" target="java.lang.Runnable">
+              <point x="0.0" y="-92.5" />
+              <point x="0.0" y="26.0" />
+            </edge>
+            <edge source="ParallelComputing" target="utils.AsociativOperator">
+              <point x="-166.0" y="-26.0" />
+              <point x="863.0" y="577.0" />
+              <point x="833.4508928571429" y="577.0" />
+              <point x="-19.5" y="26.0" />
+            </edge>
+            <edge source="Main" target="utils.AsociativOperator">
+              <point x="0.0" y="-136.0" />
+              <point x="769.5" y="347.0" />
+              <point x="794.4508928571429" y="347.0" />
+              <point x="-58.5" y="26.0" />
+            </edge>
+            <edge source="Main" target="utils.GenerateFiles">
+              <point x="-72.14285714285722" y="-136.0" />
+              <point x="697.3571428571428" y="961.0" />
+              <point x="612.0" y="961.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="Main" target="ParallelComputing">
+              <point x="72.14285714285711" y="-136.0" />
+              <point x="841.6428571428571" y="961.0" />
+              <point x="1029.0" y="961.0" />
+              <point x="0.0" y="26.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="506.0" y="188.0" />
+          <SelectedNodes>
+            <node>java.lang.Runnable</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2363">
+          <caret line="165" selection-start-line="165" selection-end-line="165" />
+          <folding>
+            <element signature="e#6351#6352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/ComplexNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="78" column="42" selection-start-line="76" selection-start-column="8" selection-end-line="78" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diagrams/GenerateFiles.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/GenerateFiles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="23" lean-forward="true" selection-end-line="41" />
+        <state relative-caret-position="425">
+          <caret line="25" column="22" selection-start-line="25" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Matrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/AsociativOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParallelComputing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MatriceAddThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LAB1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>reference</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

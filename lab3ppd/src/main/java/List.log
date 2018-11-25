@@ -1,0 +1,108 @@
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ADD 0.0 executed by 13 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ITERATE NOD  0.0 executed by 15 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: DELETE 0.0 executed by 14 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: DELETE 3.0 executed by 14 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: DELETE 6.0 executed by 14 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ADD 0.0 executed by 12 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ITERATE NOD  1.0 executed by 15 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ADD 1.0 executed by 13 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ADD 2.0 executed by 13 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ADD 3.0 executed by 12 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: DELETE 9.0 executed by 14 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ADD 6.0 executed by 12 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: DELETE 12.0 executed by 14 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ADD 9.0 executed by 12 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: DELETE 15.0 executed by 14 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: DELETE 18.0 executed by 14 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ADD 3.0 executed by 13 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ADD 12.0 executed by 12 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ITERATE NOD  2.0 executed by 15 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ADD 4.0 executed by 13 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ITERATE NOD  3.0 executed by 15 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ADD 15.0 executed by 12 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ITERATE NOD  4.0 executed by 15 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ADD 18.0 executed by 12 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ADD 21.0 executed by 12 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ITERATE NOD  10.0 executed by 15 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ADD 24.0 executed by 12 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ITERATE NOD  20.0 executed by 15 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ADD 27.0 executed by 12 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ITERATE NOD  30.0 executed by 15 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ITERATE NOD  40.0 executed by 15 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ITERATE NOD  50.0 executed by 15 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ITERATE NOD  60.0 executed by 15 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ITERATE NOD  70.0 executed by 15 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ITERATE NOD  80.0 executed by 15 at 2018/11/10 17:53:57
+
+Nov 10, 2018 5:53:57 PM utils.MyLogger log
+INFO: ITERATE NOD  90.0 executed by 15 at 2018/11/10 17:53:57
+
